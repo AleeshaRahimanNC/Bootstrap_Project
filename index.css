@@ -246,3 +246,19 @@ section {
 .insta-post:hover .insta-btn{
     opacity: 1;
 }
+
+/* blog post */
+
+.blog-post img{
+    width: 40%;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .blog-post{
+        flex-direction: column;
+    }
+    .blog-post img{
+        width: 100%;
+    }
+}
