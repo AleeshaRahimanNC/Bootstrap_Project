@@ -262,3 +262,36 @@ section {
         width: 100%;
     }
 }
+
+/* footer */
+
+footer{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./cover3.jpeg);  
+    padding-top: 120px;
+    padding-bottom: 30px;
+}
+
+.footer-top{
+    margin-bottom: 30px;
+}
+
+footer p,
+footer a{
+    color: rgba(255, 255, 255, 0.75);
+}
+
+footer img{
+    max-width: 100px;
+}
+
+footer .social-links a{
+    font-weight: normal;
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.footer-bottom{
+
+    padding-top: 30px;
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+}
