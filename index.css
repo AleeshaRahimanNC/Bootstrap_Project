@@ -131,6 +131,7 @@ section {
     color: #222;
     border-radius: 100px;
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+    margin-bottom: 25px;
 }
 
 #menu .nav-pills .nav-link.active {
